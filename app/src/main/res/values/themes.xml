@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Window-level theme used before Compose takes over rendering.
+      Uses the always-available android:Theme.Material.Light.NoActionBar
+      (API 21+) — no extra View-based Material library needed.
+      Compose's MealCycleTheme handles all in-app theming.
+    -->
+    <style name="Theme.MealCycle" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>

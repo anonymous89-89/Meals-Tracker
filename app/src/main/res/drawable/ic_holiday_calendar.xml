@@ -1,0 +1,102 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Calendar body background (white with rounded corners) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,100 C64,78 82,60 104,60 L408,60 C430,60 448,78 448,100 L448,420 C448,442 430,460 408,460 L104,460 C82,460 64,442 64,420 Z"/>
+
+    <!-- Calendar body outline (dark blue) -->
+    <path
+        android:fillColor="#1E2A5E"
+        android:pathData="M408,40 L104,40 C70.9,40 44,66.9 44,100 L44,420 C44,453.1 70.9,480 104,480 L408,480 C441.1,480 468,453.1 468,420 L468,100 C468,66.9 441.1,40 408,40 Z M104,80 L408,80 C419.1,80 428,88.9 428,100 L428,420 C428,431.1 419.1,440 408,440 L104,440 C92.9,440 84,431.1 84,420 L84,100 C84,88.9 92.9,80 104,80 Z"/>
+
+    <!-- Top bar (coral/red) -->
+    <path
+        android:fillColor="#F06449"
+        android:pathData="M84,100 C84,88.9 92.9,80 104,80 L408,80 C419.1,80 428,88.9 428,100 L428,150 L84,150 Z"/>
+
+    <!-- Left pink accent -->
+    <path
+        android:fillColor="#E84B7A"
+        android:pathData="M84,100 C84,88.9 92.9,80 104,80 L200,80 L140,150 L84,150 Z"
+        android:fillAlpha="0.7"/>
+
+    <!-- Calendar ring 1 (left) -->
+    <path
+        android:fillColor="#1E2A5E"
+        android:pathData="M160,30 C152,30 145,37 145,45 L145,95 C145,103 152,110 160,110 C168,110 175,103 175,95 L175,45 C175,37 168,30 160,30 Z"/>
+    <path
+        android:fillColor="#7B6FC0"
+        android:pathData="M148,50 L172,50 L172,85 L148,85 Z"/>
+
+    <!-- Calendar ring 2 (center) -->
+    <path
+        android:fillColor="#1E2A5E"
+        android:pathData="M256,30 C248,30 241,37 241,45 L241,95 C241,103 248,110 256,110 C264,110 271,103 271,95 L271,45 C271,37 264,30 256,30 Z"/>
+    <path
+        android:fillColor="#7B6FC0"
+        android:pathData="M244,50 L268,50 L268,85 L244,85 Z"/>
+
+    <!-- Calendar ring 3 (right) -->
+    <path
+        android:fillColor="#1E2A5E"
+        android:pathData="M352,30 C344,30 337,37 337,45 L337,95 C337,103 344,110 352,110 C360,110 367,103 367,95 L367,45 C367,37 360,30 352,30 Z"/>
+    <path
+        android:fillColor="#7B6FC0"
+        android:pathData="M340,50 L364,50 L364,85 L340,85 Z"/>
+
+    <!-- Top line -->
+    <path
+        android:fillColor="#1E2A5E"
+        android:pathData="M220,210 L380,210"
+        android:strokeWidth="16"
+        android:strokeColor="#1E2A5E"/>
+    <path
+        android:fillColor="#1E2A5E"
+        android:pathData="M220,202 L380,202 L380,218 L220,218 Z"/>
+
+    <!-- HOLIDAY text area (approximated with block letters) -->
+    <path
+        android:fillColor="#4A4088"
+        android:pathData="M118,260 L138,260 L138,330 L118,330 Z M118,290 L158,290 L158,300 L118,300 Z M148,260 L168,260 L168,330 L148,330 Z"/>
+    <!-- O -->
+    <path
+        android:fillColor="#4A4088"
+        android:pathData="M182,260 C182,260 172,260 172,275 L172,315 C172,330 182,330 182,330 L197,330 C197,330 207,330 207,315 L207,275 C207,260 197,260 197,260 Z M189,274 C200,274 200,280 200,280 L200,310 C200,310 200,316 189,316 C178,316 178,310 178,310 L178,280 C178,280 178,274 189,274 Z"/>
+    <!-- L -->
+    <path
+        android:fillColor="#4A4088"
+        android:pathData="M215,260 L235,260 L235,320 L260,320 L260,330 L215,330 Z"/>
+    <!-- I -->
+    <path
+        android:fillColor="#4A4088"
+        android:pathData="M268,260 L288,260 L288,330 L268,330 Z"/>
+    <!-- D -->
+    <path
+        android:fillColor="#4A4088"
+        android:pathData="M298,260 L320,260 C340,260 345,280 345,295 C345,310 340,330 320,330 L298,330 Z M318,274 L314,274 L314,316 L318,316 C328,316 332,305 332,295 C332,285 328,274 318,274 Z"/>
+    <!-- A -->
+    <path
+        android:fillColor="#4A4088"
+        android:pathData="M348,330 L370,260 L386,260 L408,330 L392,330 L387,315 L369,315 L364,330 Z M378,274 L372,300 L384,300 Z"/>
+    <!-- Y -->
+    <path
+        android:fillColor="#4A4088"
+        android:pathData="M138,350 L152,350 L162,370 L172,350 L186,350 L170,380 L170,410 L155,410 L155,380 Z"/>
+
+    <!-- Bottom line -->
+    <path
+        android:fillColor="#1E2A5E"
+        android:pathData="M140,400 L380,400 L380,416 L140,416 Z"/>
+
+    <!-- Light blue accent overlay -->
+    <path
+        android:fillColor="#C8D6F0"
+        android:fillAlpha="0.3"
+        android:pathData="M84,150 L84,420 C84,431.1 92.9,440 104,440 L160,440 L250,150 Z"/>
+
+</vector>

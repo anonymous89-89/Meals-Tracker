@@ -1,0 +1,1 @@
+- [Premium UI Bug Patterns](project_premium_ui_patterns.md) — Recurring import/API errors in the premium UI batch added to this project (Typography duplicate, TextField onFocusChanged, InfiniteTransition specs, etc.)

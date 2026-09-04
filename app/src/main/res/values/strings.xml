@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Meal Tracker</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Home screen -->
+    <string name="today">Today</string>
+    <string name="pick_date">Pick date</string>
+    <string name="cycle_progress">Cycle Progress</string>
+    <string name="meals">meals</string>
+    <string name="full_day">Full Day</string>
+    <string name="cycle_complete">🎉 Cycle Complete</string>
+
+    <!-- Stats -->
+    <string name="delivered_meals">Delivered Meals</string>
+    <string name="remaining_meals">Remaining Meals</string>
+    <string name="remaining_time">Remaining Time</string>
+    <string name="amount_spent">Amount Spent</string>
+    <string name="refund_amount">Refund Amount</string>
+
+    <!-- End Plan dialog -->
+    <string name="plan_summary">Plan Summary</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_save">Confirm &amp; Save</string>
+    <string name="end_plan">End Plan</string>
+    <string name="reset_plan">Reset Plan</string>
+    <string name="reset_plan_message">This will permanently delete all meal data for the current cycle. This cannot be undone.</string>
+    <string name="reset">Reset</string>
+    <string name="ok">OK</string>
+
+    <!-- History -->
+    <string name="total_spent_all_time">All-Time Total Spent</string>
+    <string name="no_history">No plan history yet.\nEnd a plan to see records here.</string>
+
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="add_user">Add User</string>
+    <string name="user_name">Name</string>
+    <string name="pick_photo">Pick Photo</string>
+    <string name="photo_selected">Photo Selected ✓</string>
+    <string name="add">Add</string>
+    <string name="active_user">Active</string>
+    <string name="tap_to_switch">Tap to switch</string>
+    <string name="delete_user">Delete User</string>
+    <string name="delete_user_message">Delete %1$s and all their meal data? This cannot be undone.</string>
+    <string name="delete">Delete</string>
+    <string name="no_users">No profiles yet.\nTap + to add a user.</string>
+</resources>
